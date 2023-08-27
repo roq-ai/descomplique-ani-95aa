@@ -1,0 +1,2322 @@
+[
+  {
+    "course": [
+      {
+        "id": "47b9774c-5c0d-443a-afaf-241a7100f94e",
+        "title": "Introduction to Python Programming",
+        "description": "Learn the basics of Python programming language",
+        "created_at": "2023-08-26T13:20:09.064Z",
+        "updated_at": "2023-08-26T15:45:13.253Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d572bb6-87a8-4a32-98ac-3a68fdc5ac67",
+        "title": "Web Development Fundamentals",
+        "description": "Build interactive websites using HTML, CSS, and JavaScript",
+        "created_at": "2023-08-26T12:54:37.417Z",
+        "updated_at": "2023-08-26T14:03:06.765Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e809a796-ef29-4e7c-9e4f-10d2d9fecdaf",
+        "title": "Data Science for Beginners",
+        "description": "Explore the world of data science and its applications",
+        "created_at": "2023-08-26T21:23:45.833Z",
+        "updated_at": "2023-08-26T12:32:20.679Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "31b1186f-7b51-410b-a3ee-dfaf5b800965",
+        "title": "Marketing Strategies 101",
+        "description": "Discover effective marketing strategies for business success",
+        "created_at": "2023-08-26T19:25:19.776Z",
+        "updated_at": "2023-08-27T01:39:09.540Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6019bcf0-34f9-4a22-976c-55b0ed6a8dee",
+        "title": "Financial Planning Basics",
+        "description": "Understand the fundamentals of financial planning and investment",
+        "created_at": "2023-08-27T04:41:16.425Z",
+        "updated_at": "2023-08-26T22:52:46.276Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "34d5da75-0f41-4269-a6f0-3360d7175ee2",
+        "title": "Getting Started with React",
+        "description": "Learn how to develop web applications using React framework",
+        "type": "Tutorial",
+        "created_at": "2023-08-27T03:32:08.645Z",
+        "updated_at": "2023-08-26T13:07:28.233Z",
+        "course_id": "0d572bb6-87a8-4a32-98ac-3a68fdc5ac67"
+      },
+      {
+        "id": "9cef035d-826b-4ee9-8270-00c03c17a47c",
+        "title": "The Art of Photography",
+        "description": "Master the art of capturing stunning photographs",
+        "type": "Guide",
+        "created_at": "2023-08-26T14:56:59.307Z",
+        "updated_at": "2023-08-26T17:59:27.369Z",
+        "course_id": "6019bcf0-34f9-4a22-976c-55b0ed6a8dee"
+      },
+      {
+        "id": "6d030484-263a-406b-8913-cd04fa3c0abb",
+        "title": "Introduction to Machine Learning",
+        "description": "Get an introduction to the concepts and algorithms of machine learning",
+        "type": "Video Lecture",
+        "created_at": "2023-08-26T19:43:50.164Z",
+        "updated_at": "2023-08-26T07:42:03.560Z",
+        "course_id": "6019bcf0-34f9-4a22-976c-55b0ed6a8dee"
+      },
+      {
+        "id": "6e43e4a2-d3ec-4cd5-b13a-4ad0e128e621",
+        "title": "Effective Communication Skills",
+        "description": "Improve your communication skills for personal and professional growth",
+        "type": "Case Study",
+        "created_at": "2023-08-26T14:14:34.147Z",
+        "updated_at": "2023-08-26T13:24:29.523Z",
+        "course_id": "31b1186f-7b51-410b-a3ee-dfaf5b800965"
+      },
+      {
+        "id": "169f2685-cb1c-4bbb-bdf1-2bf09bbf294c",
+        "title": "Personal Finance Management",
+        "description": "Learn how to manage personal finances and make informed financial decisions",
+        "type": "Quiz",
+        "created_at": "2023-08-26T23:17:01.073Z",
+        "updated_at": "2023-08-27T01:40:15.779Z",
+        "course_id": "31b1186f-7b51-410b-a3ee-dfaf5b800965"
+      }
+    ],
+    "activity": [
+      {
+        "id": "ca344f04-a2d4-4c86-98a5-111b3081d3ef",
+        "title": "Team Building Workshop",
+        "description": "Engage in team-building activities to enhance collaboration and communication",
+        "created_at": "2023-08-27T06:17:55.515Z",
+        "updated_at": "2023-08-27T05:46:37.623Z",
+        "course_id": "6019bcf0-34f9-4a22-976c-55b0ed6a8dee",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2c0d8e5-91b3-4e76-92fe-90472e8a8853",
+        "title": "Leadership Training Program",
+        "description": "Develop leadership skills through interactive training sessions",
+        "created_at": "2023-08-27T00:39:39.235Z",
+        "updated_at": "2023-08-26T17:47:12.472Z",
+        "course_id": "31b1186f-7b51-410b-a3ee-dfaf5b800965",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6020773e-594e-42da-84a7-0013ddbce853",
+        "title": "Community Service Event",
+        "description": "Contribute to the community through a service event",
+        "created_at": "2023-08-27T05:03:29.537Z",
+        "updated_at": "2023-08-26T12:46:02.786Z",
+        "course_id": "e809a796-ef29-4e7c-9e4f-10d2d9fecdaf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "340a5a58-0b7b-41aa-8684-bf0bc078297a",
+        "title": "Product Launch Ceremony",
+        "description": "Celebrate the launch of a new product with stakeholders",
+        "created_at": "2023-08-26T14:18:09.290Z",
+        "updated_at": "2023-08-27T04:40:04.813Z",
+        "course_id": "31b1186f-7b51-410b-a3ee-dfaf5b800965",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67de6a5f-344e-4e3a-8cda-ecf4e2b0853b",
+        "title": "Networking Conference",
+        "description": "Network with industry professionals and expand your connections",
+        "created_at": "2023-08-26T14:34:59.947Z",
+        "updated_at": "2023-08-27T00:49:57.427Z",
+        "course_id": "0d572bb6-87a8-4a32-98ac-3a68fdc5ac67",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "9dbfcbde-01a9-43df-8ef1-655e0f56fe69",
+        "title": "Outstanding Performance Award",
+        "description": "Recognized for exceptional performance and dedication",
+        "created_at": "2023-08-26T21:08:19.534Z",
+        "updated_at": "2023-08-27T00:06:46.940Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43e743cd-d7a7-407d-8cac-b2c1b6db1784",
+        "title": "Innovation Excellence Recognition",
+        "description": "Acknowledged for innovative ideas and contributions",
+        "created_at": "2023-08-26T09:08:51.886Z",
+        "updated_at": "2023-08-26T16:51:00.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be2ca0da-4a52-43a5-8b53-f8fb5d26c5eb",
+        "title": "Community Service Champion",
+        "description": "Honored for outstanding commitment to community service",
+        "created_at": "2023-08-26T21:20:25.988Z",
+        "updated_at": "2023-08-26T18:27:54.188Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "696a5a4b-0ac2-4ba7-8ab3-730963c536fb",
+        "title": "Top Sales Achiever",
+        "description": "Achieved top sales results and exceeded targets",
+        "created_at": "2023-08-26T13:25:51.464Z",
+        "updated_at": "2023-08-27T02:30:45.841Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1109a329-a773-4239-8ce6-c5432a60c5d7",
+        "title": "Leadership Excellence Award",
+        "description": "Recognized for exceptional leadership skills and achievements",
+        "created_at": "2023-08-26T10:10:23.677Z",
+        "updated_at": "2023-08-26T13:09:49.321Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ba5c7fc6-e83e-4276-8b6b-82959127db39",
+        "email": "Hector.Price29@hotmail.com",
+        "firstName": "Paxton",
+        "lastName": "Hauck",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1126.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c20873bd-a8a8-4bea-96a8-f46af3d55a61",
+        "email": "Oleta_Gleason78@hotmail.com",
+        "firstName": "Jacques",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33053947",
+        "tenantId": null
+      },
+      {
+        "reference": "4938f2b7-7e69-46bc-b215-0702fb1c257c",
+        "email": "Emiliano.Braun@gmail.com",
+        "firstName": "Zack",
+        "lastName": "Hoppe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60881179",
+        "tenantId": null
+      },
+      {
+        "reference": "a8335b5e-ef5a-4afe-89fe-0d74b70db0cb",
+        "email": "Lia_Schiller50@hotmail.com",
+        "firstName": "Thalia",
+        "lastName": "Strosin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88282693",
+        "tenantId": null
+      },
+      {
+        "reference": "6a086b9f-972f-4f10-8ab8-fa1592cadd11",
+        "email": "Julie_OReilly@yahoo.com",
+        "firstName": "Nicholaus",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83676116",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "2679bb46-5d6f-43fd-ad5a-da59a40da9ff",
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming and coding languages",
+        "created_at": "2023-08-26T11:46:19.187Z",
+        "updated_at": "2023-08-26T08:57:17.492Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0b71aac-cfe7-40ed-9f1d-a94a68055f31",
+        "title": "Digital Marketing Strategies",
+        "description": "Explore various digital marketing techniques and strategies",
+        "created_at": "2023-08-26T15:49:55.768Z",
+        "updated_at": "2023-08-26T18:39:37.459Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56cfeca2-f94b-46ee-a5f4-bfee8f9ce998",
+        "title": "Financial Management for Entrepreneurs",
+        "description": "Master financial management skills for startups and small businesses",
+        "created_at": "2023-08-26T07:20:34.358Z",
+        "updated_at": "2023-08-26T08:06:53.546Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "927a2bff-0641-4339-b4f2-6d8797a75f75",
+        "title": "Artificial Intelligence Fundamentals",
+        "description": "Gain insights into the world of artificial intelligence and machine learning",
+        "created_at": "2023-08-26T19:34:39.016Z",
+        "updated_at": "2023-08-26T18:33:58.776Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a5ef2e0e-e8a3-42ba-bd49-da2c353ec7f3",
+        "title": "Effective Communication Skills",
+        "description": "Enhance your communication skills for personal and professional success",
+        "created_at": "2023-08-26T12:10:00.408Z",
+        "updated_at": "2023-08-26T23:30:07.133Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "058f3f6c-2907-4b5d-8d16-d05f960d1062",
+        "title": "Getting Started with Python",
+        "description": "Learn the fundamentals of Python programming language",
+        "type": "Tutorial",
+        "created_at": "2023-08-27T01:30:29.150Z",
+        "updated_at": "2023-08-26T14:17:25.841Z",
+        "course_id": "56cfeca2-f94b-46ee-a5f4-bfee8f9ce998"
+      },
+      {
+        "id": "18ed9f15-0f49-463f-b91e-5dd1f7511fb1",
+        "title": "The Power of Social Media Marketing",
+        "description": "Harness the potential of social media platforms for marketing success",
+        "type": "Article",
+        "created_at": "2023-08-26T07:39:06.054Z",
+        "updated_at": "2023-08-26T11:41:34.571Z",
+        "course_id": "a5ef2e0e-e8a3-42ba-bd49-da2c353ec7f3"
+      },
+      {
+        "id": "c07f91d3-53f2-45bd-8885-3b182ae44f77",
+        "title": "Financial Planning for Business Growth",
+        "description": "Develop effective financial plans to drive business growth",
+        "type": "Video",
+        "created_at": "2023-08-27T06:12:32.026Z",
+        "updated_at": "2023-08-26T13:18:25.684Z",
+        "course_id": "927a2bff-0641-4339-b4f2-6d8797a75f75"
+      },
+      {
+        "id": "208de3a7-dff4-43a2-b07b-d67ac781bc93",
+        "title": "Deep Learning and Neural Networks",
+        "description": "Dive into the world of deep learning and neural networks",
+        "type": "Case Study",
+        "created_at": "2023-08-27T01:23:05.817Z",
+        "updated_at": "2023-08-26T16:20:24.435Z",
+        "course_id": "c0b71aac-cfe7-40ed-9f1d-a94a68055f31"
+      },
+      {
+        "id": "7ef45fba-a5f8-4bae-b181-43dd6dbe97e8",
+        "title": "Effective Presentation Techniques",
+        "description": "Master the art of delivering impactful presentations",
+        "type": "Infographic",
+        "created_at": "2023-08-26T06:45:03.563Z",
+        "updated_at": "2023-08-27T03:53:17.488Z",
+        "course_id": "56cfeca2-f94b-46ee-a5f4-bfee8f9ce998"
+      }
+    ],
+    "activity": [
+      {
+        "id": "82b52da1-1038-4fc8-9dbf-cc6a8e32e17b",
+        "title": "Team Building Workshop",
+        "description": "Engage in team-building activities to foster collaboration and synergy",
+        "created_at": "2023-08-26T17:30:25.190Z",
+        "updated_at": "2023-08-26T17:27:24.404Z",
+        "course_id": "c0b71aac-cfe7-40ed-9f1d-a94a68055f31",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fa72dd7-2026-4546-a6a9-ef543e66064d",
+        "title": "Innovation Hackathon",
+        "description": "Participate in an innovation hackathon to generate creative solutions",
+        "created_at": "2023-08-26T17:37:48.543Z",
+        "updated_at": "2023-08-26T06:43:33.010Z",
+        "course_id": "2679bb46-5d6f-43fd-ad5a-da59a40da9ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ee86c47-bafc-4976-aa6e-0dea5a77322c",
+        "title": "Leadership Seminar",
+        "description": "Attend a leadership seminar to enhance your leadership skills",
+        "created_at": "2023-08-26T06:43:18.373Z",
+        "updated_at": "2023-08-26T17:01:21.777Z",
+        "course_id": "2679bb46-5d6f-43fd-ad5a-da59a40da9ff",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "695635cf-7a95-4bbf-87f0-1794e6cd690e",
+        "title": "Networking Event",
+        "description": "Expand your professional network at a networking event",
+        "created_at": "2023-08-27T03:45:59.842Z",
+        "updated_at": "2023-08-26T21:14:05.312Z",
+        "course_id": "a5ef2e0e-e8a3-42ba-bd49-da2c353ec7f3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d34460c2-1c82-490c-a5fb-8de8a9f8a486",
+        "title": "Problem-Solving Challenge",
+        "description": "Take part in a problem-solving challenge to sharpen your critical thinking abilities",
+        "created_at": "2023-08-26T23:31:37.107Z",
+        "updated_at": "2023-08-27T02:02:12.359Z",
+        "course_id": "c0b71aac-cfe7-40ed-9f1d-a94a68055f31",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "ef9b2110-eb09-40b1-8a60-57410dc881c1",
+        "title": "Outstanding Performance Award",
+        "description": "Recognizes exceptional performance and contributions",
+        "created_at": "2023-08-26T17:56:16.109Z",
+        "updated_at": "2023-08-26T13:15:38.136Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58b1d41d-e49f-4b6c-beff-87f3aaef7823",
+        "title": "Innovation Excellence Recognition",
+        "description": "Acknowledges outstanding innovation and creativity",
+        "created_at": "2023-08-26T20:53:50.625Z",
+        "updated_at": "2023-08-26T17:22:36.536Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3e8b078-6cdb-4d74-919f-d8fe5bca0569",
+        "title": "Leadership Achievement Certificate",
+        "description": "Honors exceptional leadership achievements",
+        "created_at": "2023-08-26T14:45:55.503Z",
+        "updated_at": "2023-08-26T11:25:33.070Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7477469-98b9-4b62-b389-6bc189e845ed",
+        "title": "Community Service Appreciation",
+        "description": "Appreciates dedication and commitment to community service",
+        "created_at": "2023-08-26T09:51:52.555Z",
+        "updated_at": "2023-08-27T06:14:24.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a55cf6d6-da01-40cc-94f4-27c8eaf19e83",
+        "title": "Problem-Solving Champion",
+        "description": "Celebrates exceptional problem-solving skills",
+        "created_at": "2023-08-26T20:30:50.280Z",
+        "updated_at": "2023-08-26T17:40:51.028Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "303701b6-71bb-472c-8671-f02ef14f2cd8",
+        "email": "Tyreek2@gmail.com",
+        "firstName": "Mariah",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66316585",
+        "tenantId": null
+      },
+      {
+        "reference": "f26cd6d1-3000-40bb-9683-3b1edd447161",
+        "email": "Barbara.Schuppe3@gmail.com",
+        "firstName": "Timmothy",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/863.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c253345a-8c60-4625-b58b-50a6065dbce9",
+        "email": "Katheryn.Ward@hotmail.com",
+        "firstName": "Candelario",
+        "lastName": "Wyman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8621109",
+        "tenantId": null
+      },
+      {
+        "reference": "92a210ce-7e59-4636-b16b-6be81b006d02",
+        "email": "Brain45@yahoo.com",
+        "firstName": "Aubrey",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37330870",
+        "tenantId": null
+      },
+      {
+        "reference": "a86a67ac-5e9c-4f09-8a7f-8a83bc6f6870",
+        "email": "Toby70@yahoo.com",
+        "firstName": "Evans",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41042843",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "c2d37098-10a1-423b-b8d0-d9213bc9dcba",
+        "title": "Introduction to Computer Science",
+        "description": "Learn the fundamentals of computer science and programming",
+        "created_at": "2023-08-26T18:05:34.588Z",
+        "updated_at": "2023-08-27T03:14:14.698Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64641400-b7fd-46ae-83e6-ecef6d4a6cd8",
+        "title": "Marketing Strategies for Small Businesses",
+        "description": "Discover effective marketing strategies for small businesses",
+        "created_at": "2023-08-26T07:44:18.673Z",
+        "updated_at": "2023-08-26T19:03:15.579Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "129adc66-8c9f-4feb-9c61-ab8603135fd8",
+        "title": "Financial Management for Entrepreneurs",
+        "description": "Master financial management techniques for entrepreneurs",
+        "created_at": "2023-08-27T04:02:21.299Z",
+        "updated_at": "2023-08-27T03:40:21.313Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab4907ef-5199-4e83-8ffb-372f3208e7c6",
+        "title": "Artificial Intelligence in Healthcare",
+        "description": "Explore the applications of artificial intelligence in healthcare",
+        "created_at": "2023-08-26T10:35:10.089Z",
+        "updated_at": "2023-08-27T06:18:36.933Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91df9c96-9fe4-42d1-9a10-f1f58a73e415",
+        "title": "Effective Communication Skills",
+        "description": "Improve your communication skills for personal and professional success",
+        "created_at": "2023-08-26T17:29:10.266Z",
+        "updated_at": "2023-08-26T17:40:17.263Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "8d129386-046c-463c-8784-cee8d6ef405a",
+        "title": "Introduction to Python Programming",
+        "description": "Learn the basics of Python programming language",
+        "type": "Tutorial",
+        "created_at": "2023-08-26T09:40:56.683Z",
+        "updated_at": "2023-08-26T14:59:38.024Z",
+        "course_id": "91df9c96-9fe4-42d1-9a10-f1f58a73e415"
+      },
+      {
+        "id": "bb8ab3ba-ba3d-40fc-8531-12815cc5aca1",
+        "title": "Web Development with HTML and CSS",
+        "description": "Build responsive websites using HTML and CSS",
+        "type": "Article",
+        "created_at": "2023-08-27T01:54:08.052Z",
+        "updated_at": "2023-08-26T10:19:19.334Z",
+        "course_id": "c2d37098-10a1-423b-b8d0-d9213bc9dcba"
+      },
+      {
+        "id": "4516ae6a-ffcd-481c-b952-9413003e5852",
+        "title": "Data Analysis with Python",
+        "description": "Analyze data using Python libraries and tools",
+        "type": "Video",
+        "created_at": "2023-08-27T04:06:14.501Z",
+        "updated_at": "2023-08-26T10:40:53.352Z",
+        "course_id": "129adc66-8c9f-4feb-9c61-ab8603135fd8"
+      },
+      {
+        "id": "c90395c9-08cb-4dd9-943f-1c815f8940d2",
+        "title": "Mobile App Development with React Native",
+        "description": "Develop mobile apps using React Native framework",
+        "type": "Presentation",
+        "created_at": "2023-08-26T15:15:16.754Z",
+        "updated_at": "2023-08-27T04:14:21.910Z",
+        "course_id": "64641400-b7fd-46ae-83e6-ecef6d4a6cd8"
+      },
+      {
+        "id": "95c99c25-fc31-475c-8528-da93c193c2af",
+        "title": "Cloud Computing Fundamentals",
+        "description": "Understand the fundamentals of cloud computing",
+        "type": "Case Study",
+        "created_at": "2023-08-26T08:18:33.212Z",
+        "updated_at": "2023-08-27T06:17:28.558Z",
+        "course_id": "64641400-b7fd-46ae-83e6-ecef6d4a6cd8"
+      }
+    ],
+    "activity": [
+      {
+        "id": "65ea44db-2042-4312-859f-bc511d06e76d",
+        "title": "Team Building Workshop",
+        "description": "Engage in team-building activities to enhance collaboration",
+        "created_at": "2023-08-26T19:43:04.547Z",
+        "updated_at": "2023-08-26T14:52:28.755Z",
+        "course_id": "91df9c96-9fe4-42d1-9a10-f1f58a73e415",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "857c5c1c-3e7a-4fac-b596-c5da37a337e9",
+        "title": "Leadership Seminar",
+        "description": "Attend a seminar on effective leadership strategies",
+        "created_at": "2023-08-27T00:05:35.083Z",
+        "updated_at": "2023-08-26T17:31:23.175Z",
+        "course_id": "129adc66-8c9f-4feb-9c61-ab8603135fd8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "41995d79-cb7a-435f-b39c-f3166a87dc4c",
+        "title": "Problem-Solving Challenge",
+        "description": "Participate in a problem-solving challenge to sharpen critical thinking skills",
+        "created_at": "2023-08-26T21:24:06.100Z",
+        "updated_at": "2023-08-26T21:02:45.295Z",
+        "course_id": "c2d37098-10a1-423b-b8d0-d9213bc9dcba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "145dcd2e-fc04-4ef6-baaf-ddc1f901bc4f",
+        "title": "Networking Event",
+        "description": "Network with professionals from various industries",
+        "created_at": "2023-08-26T09:26:05.812Z",
+        "updated_at": "2023-08-26T08:28:00.849Z",
+        "course_id": "91df9c96-9fe4-42d1-9a10-f1f58a73e415",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e5a05a8-9cb7-46a0-82eb-409b090387da",
+        "title": "Innovation Hackathon",
+        "description": "Collaborate with others to develop innovative solutions in a hackathon",
+        "created_at": "2023-08-26T19:32:06.351Z",
+        "updated_at": "2023-08-26T10:07:36.391Z",
+        "course_id": "91df9c96-9fe4-42d1-9a10-f1f58a73e415",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "833eaf49-5336-44e4-a4b4-233f7e77c35f",
+        "title": "Outstanding Achievement Award",
+        "description": "Recognized for exceptional achievements and contributions",
+        "created_at": "2023-08-26T17:08:18.353Z",
+        "updated_at": "2023-08-27T04:47:42.263Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcb9bc06-8b26-463f-8f99-8a6adaaa446a",
+        "title": "Excellence in Innovation",
+        "description": "Acknowledged for innovative ideas and solutions",
+        "created_at": "2023-08-26T19:09:53.833Z",
+        "updated_at": "2023-08-26T12:21:50.159Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e28948a4-60c1-4346-a067-8d65e45d25ea",
+        "title": "Leadership Excellence Award",
+        "description": "Honored for outstanding leadership qualities",
+        "created_at": "2023-08-27T00:01:12.107Z",
+        "updated_at": "2023-08-27T03:37:28.503Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66faf167-8f8e-4933-9e11-ebce01906eb9",
+        "title": "Community Service Recognition",
+        "description": "Appreciated for dedicated community service efforts",
+        "created_at": "2023-08-26T07:09:29.727Z",
+        "updated_at": "2023-08-26T15:02:43.451Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb98bfa2-98d3-43a4-904b-d35e9924930e",
+        "title": "Academic Excellence Award",
+        "description": "Recognized for academic excellence and outstanding performance",
+        "created_at": "2023-08-27T01:47:21.501Z",
+        "updated_at": "2023-08-26T23:58:22.908Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "189b2d53-ecb5-42c5-848f-1d6ad4f30832",
+        "email": "Khalil_Leannon@yahoo.com",
+        "firstName": "Isom",
+        "lastName": "Dietrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/242.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d5dec99e-0728-4ffa-b830-d23965a516f3",
+        "email": "Israel20@gmail.com",
+        "firstName": "Annamae",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94177219",
+        "tenantId": null
+      },
+      {
+        "reference": "20a4ff3f-cbec-4491-970d-41baa9f4682b",
+        "email": "Romaine.Swaniawski@hotmail.com",
+        "firstName": "Cydney",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80419967",
+        "tenantId": null
+      },
+      {
+        "reference": "085a7503-ef3b-43a3-8142-6972e56ae639",
+        "email": "Jermain3@yahoo.com",
+        "firstName": "Hobart",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84502220",
+        "tenantId": null
+      },
+      {
+        "reference": "cc4fa665-b1da-4d47-8fbb-ef4e22a3969c",
+        "email": "Raven_Schaden@gmail.com",
+        "firstName": "Pat",
+        "lastName": "Brown",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/437.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "c90fc484-797c-4f6e-a0f9-bc68db24ac73",
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming with this comprehensive course",
+        "created_at": "2023-08-27T05:14:01.992Z",
+        "updated_at": "2023-08-26T17:30:04.153Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0a7b53d-db57-4753-9a4d-05e0e6b80d0c",
+        "title": "Environmental Science",
+        "description": "Explore the science behind environmental issues and solutions",
+        "created_at": "2023-08-26T07:56:06.448Z",
+        "updated_at": "2023-08-27T05:05:18.679Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "745ec428-5151-4e29-bac9-76a2e9084e02",
+        "title": "Web Development",
+        "description": "Master the skills required to build modern web applications",
+        "created_at": "2023-08-26T10:43:36.493Z",
+        "updated_at": "2023-08-26T12:49:19.186Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f2fee3b9-8aeb-429e-8ba2-d6418e4e9c25",
+        "title": "Anatomy and Physiology",
+        "description": "Study the structure and function of the human body",
+        "created_at": "2023-08-27T00:17:05.917Z",
+        "updated_at": "2023-08-26T08:40:21.130Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "017ca2b5-cf27-4c40-9c5a-4cf5bd0d6916",
+        "title": "Financial Management",
+        "description": "Gain knowledge in managing personal and business finances",
+        "created_at": "2023-08-27T01:19:08.571Z",
+        "updated_at": "2023-08-27T04:12:23.984Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "d46dea3b-9e75-47a2-b124-1abbd78c79c2",
+        "title": "Getting Started",
+        "description": "Learn the fundamentals of the topic",
+        "type": "Video",
+        "created_at": "2023-08-26T10:46:59.581Z",
+        "updated_at": "2023-08-26T12:16:05.200Z",
+        "course_id": "745ec428-5151-4e29-bac9-76a2e9084e02"
+      },
+      {
+        "id": "632680bc-e513-4ab5-8509-e313c2c84ef6",
+        "title": "Advanced Techniques",
+        "description": "Explore advanced techniques and concepts",
+        "type": "Article",
+        "created_at": "2023-08-26T12:09:57.669Z",
+        "updated_at": "2023-08-26T23:06:27.855Z",
+        "course_id": "f2fee3b9-8aeb-429e-8ba2-d6418e4e9c25"
+      },
+      {
+        "id": "dbd17af7-c181-481e-8e2d-21534c121130",
+        "title": "Best Practices",
+        "description": "Discover the best practices in the field",
+        "type": "Interactive Tutorial",
+        "created_at": "2023-08-26T20:15:33.827Z",
+        "updated_at": "2023-08-26T20:43:18.914Z",
+        "course_id": "017ca2b5-cf27-4c40-9c5a-4cf5bd0d6916"
+      },
+      {
+        "id": "4bc9cfd6-7c9b-4678-9927-651e7e99a370",
+        "title": "Case Studies",
+        "description": "Analyze real-life case studies and examples",
+        "type": "Quiz",
+        "created_at": "2023-08-26T11:12:59.247Z",
+        "updated_at": "2023-08-26T17:40:43.617Z",
+        "course_id": "f2fee3b9-8aeb-429e-8ba2-d6418e4e9c25"
+      },
+      {
+        "id": "7ebea484-34dd-4ebc-a9ea-da9eb56e98c4",
+        "title": "Troubleshooting Guide",
+        "description": "Find solutions to common issues and problems",
+        "type": "Presentation",
+        "created_at": "2023-08-26T18:45:38.829Z",
+        "updated_at": "2023-08-26T16:25:49.214Z",
+        "course_id": "017ca2b5-cf27-4c40-9c5a-4cf5bd0d6916"
+      }
+    ],
+    "activity": [
+      {
+        "id": "a2450a69-9605-4eb0-ac3f-45541d881fcd",
+        "title": "Group Discussion",
+        "description": "Engage in a group discussion to exchange ideas and perspectives",
+        "created_at": "2023-08-26T14:52:08.738Z",
+        "updated_at": "2023-08-26T15:50:28.519Z",
+        "course_id": "c90fc484-797c-4f6e-a0f9-bc68db24ac73",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "145874b9-485a-48d1-a945-00a02017bd02",
+        "title": "Hands-on Workshop",
+        "description": "Participate in a hands-on workshop to apply theoretical knowledge",
+        "created_at": "2023-08-26T07:36:13.918Z",
+        "updated_at": "2023-08-26T08:55:07.194Z",
+        "course_id": "017ca2b5-cf27-4c40-9c5a-4cf5bd0d6916",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92ec6bba-8c41-44d2-bb28-80e0c28a726a",
+        "title": "Guest Speaker Session",
+        "description": "Listen to a guest speaker sharing insights and experiences",
+        "created_at": "2023-08-26T10:56:09.031Z",
+        "updated_at": "2023-08-26T14:51:45.036Z",
+        "course_id": "017ca2b5-cf27-4c40-9c5a-4cf5bd0d6916",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce93f53b-56f5-4ba1-a740-421e1d93a4be",
+        "title": "Field Trip",
+        "description": "Go on a field trip to observe and learn in a real-world setting",
+        "created_at": "2023-08-26T18:28:27.921Z",
+        "updated_at": "2023-08-26T07:00:42.594Z",
+        "course_id": "f2fee3b9-8aeb-429e-8ba2-d6418e4e9c25",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a18d52e0-434a-4efd-99f3-c77895cfc2df",
+        "title": "Problem-solving Exercise",
+        "description": "Work collaboratively to solve a challenging problem",
+        "created_at": "2023-08-26T17:45:44.220Z",
+        "updated_at": "2023-08-27T01:44:28.482Z",
+        "course_id": "c90fc484-797c-4f6e-a0f9-bc68db24ac73",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "2cf566af-6ccf-44ce-8e19-e202b725c3f8",
+        "title": "Top Performer",
+        "description": "Recognizing exceptional performance and dedication",
+        "created_at": "2023-08-26T08:10:51.814Z",
+        "updated_at": "2023-08-26T23:00:36.474Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4bfc78a-81fc-490f-a8ea-597051b04495",
+        "title": "Outstanding Achievement",
+        "description": "Acknowledging outstanding achievements and contributions",
+        "created_at": "2023-08-26T12:03:38.163Z",
+        "updated_at": "2023-08-26T14:18:02.749Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7ff9223-2d52-4cca-99ff-b8e3b7fcfed5",
+        "title": "Excellence Award",
+        "description": "Celebrating excellence in a specific area or field",
+        "created_at": "2023-08-27T03:12:36.958Z",
+        "updated_at": "2023-08-26T07:52:45.933Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4891da10-b80f-441c-b54f-626c9e019050",
+        "title": "Leadership Recognition",
+        "description": "Honoring individuals for their leadership qualities",
+        "created_at": "2023-08-26T19:55:40.809Z",
+        "updated_at": "2023-08-26T21:18:51.583Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dc9ac469-1600-47e4-935e-4901be53250c",
+        "title": "Innovation Prize",
+        "description": "Rewarding innovative ideas and solutions",
+        "created_at": "2023-08-26T07:21:42.232Z",
+        "updated_at": "2023-08-26T11:32:18.029Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a2a3f090-f1ef-43b1-850e-e8469a9c0bbc",
+        "email": "Otha.Pfannerstill1@hotmail.com",
+        "firstName": "Aurelie",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/218.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "64ea1111-93d5-436c-8cdb-efd93c07d39f",
+        "email": "Nickolas_Grimes@hotmail.com",
+        "firstName": "Arlo",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68964321",
+        "tenantId": null
+      },
+      {
+        "reference": "da93c56d-c46d-4c72-ad27-502cf5393233",
+        "email": "Maximillian_Olson29@gmail.com",
+        "firstName": "Pinkie",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5f8c90a2-bf8e-45b0-a4fe-3f50c3f351f2",
+        "email": "Stewart51@gmail.com",
+        "firstName": "Pablo",
+        "lastName": "Robel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89936680",
+        "tenantId": null
+      },
+      {
+        "reference": "2e3fe9b4-907d-4aff-8978-63a3f11c5fb1",
+        "email": "Katherine_Wisozk98@hotmail.com",
+        "firstName": "Alexandro",
+        "lastName": "Hodkiewicz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68358018",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "425cbc57-dbbb-42fc-a23d-16744aba22fe",
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming with hands-on exercises",
+        "created_at": "2023-08-26T23:32:27.482Z",
+        "updated_at": "2023-08-26T21:48:29.637Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99c84a0e-8faa-4338-b1d7-983bfa1af6a3",
+        "title": "Marketing Strategies for Small Businesses",
+        "description": "Discover effective marketing techniques for small businesses",
+        "created_at": "2023-08-26T15:19:43.352Z",
+        "updated_at": "2023-08-27T06:22:43.018Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29db194a-80f9-44d6-90a3-f496aa5bc3a0",
+        "title": "Financial Planning for Beginners",
+        "description": "Understand the principles of financial planning and budgeting",
+        "created_at": "2023-08-26T17:22:41.216Z",
+        "updated_at": "2023-08-26T22:38:33.441Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2146038e-6446-4a80-b2e4-45b267f404c9",
+        "title": "Artificial Intelligence Fundamentals",
+        "description": "Explore the world of artificial intelligence and its applications",
+        "created_at": "2023-08-26T18:40:21.895Z",
+        "updated_at": "2023-08-27T01:03:13.814Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "878a251c-2126-4f34-928f-62499163e473",
+        "title": "Effective Communication Skills",
+        "description": "Improve your communication skills for personal and professional success",
+        "created_at": "2023-08-26T15:22:54.560Z",
+        "updated_at": "2023-08-26T21:14:14.079Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "4774dc08-0366-49c4-8de0-cdb3956820e1",
+        "title": "Getting Started",
+        "description": "Learn the foundational concepts and principles",
+        "type": "Video",
+        "created_at": "2023-08-26T21:21:54.838Z",
+        "updated_at": "2023-08-26T12:39:07.368Z",
+        "course_id": "425cbc57-dbbb-42fc-a23d-16744aba22fe"
+      },
+      {
+        "id": "3a0ece24-82f6-4c27-9261-c431e77511a9",
+        "title": "Advanced Techniques",
+        "description": "Explore advanced techniques and strategies",
+        "type": "Article",
+        "created_at": "2023-08-26T12:09:08.447Z",
+        "updated_at": "2023-08-26T14:42:34.859Z",
+        "course_id": "878a251c-2126-4f34-928f-62499163e473"
+      },
+      {
+        "id": "1a001fe1-79b0-40a5-8be7-267f239efff7",
+        "title": "Case Studies",
+        "description": "Analyze real-world case studies for practical insights",
+        "type": "Quiz",
+        "created_at": "2023-08-26T16:14:12.145Z",
+        "updated_at": "2023-08-26T07:59:25.146Z",
+        "course_id": "878a251c-2126-4f34-928f-62499163e473"
+      },
+      {
+        "id": "3f2eda15-a796-476a-acbd-6c011c464fe6",
+        "title": "Best Practices",
+        "description": "Discover the best practices in the industry",
+        "type": "Interactive Module",
+        "created_at": "2023-08-27T00:27:33.534Z",
+        "updated_at": "2023-08-26T15:09:00.393Z",
+        "course_id": "878a251c-2126-4f34-928f-62499163e473"
+      },
+      {
+        "id": "9a3fca3e-68fd-4354-8e96-4c05d7219990",
+        "title": "Tips and Tricks",
+        "description": "Get valuable tips and tricks for better results",
+        "type": "Presentation",
+        "created_at": "2023-08-27T01:40:35.942Z",
+        "updated_at": "2023-08-26T18:18:11.179Z",
+        "course_id": "29db194a-80f9-44d6-90a3-f496aa5bc3a0"
+      }
+    ],
+    "activity": [
+      {
+        "id": "0a20f542-8ea0-4b00-a324-6c0619d90b11",
+        "title": "Team Building Workshop",
+        "description": "Engage in team-building activities and exercises",
+        "created_at": "2023-08-27T05:09:50.995Z",
+        "updated_at": "2023-08-26T11:17:00.936Z",
+        "course_id": "29db194a-80f9-44d6-90a3-f496aa5bc3a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a7856d1e-358f-4cac-9e8e-0941efa741c8",
+        "title": "Leadership Seminar",
+        "description": "Attend a seminar to enhance your leadership skills",
+        "created_at": "2023-08-27T04:23:14.535Z",
+        "updated_at": "2023-08-26T09:17:40.672Z",
+        "course_id": "878a251c-2126-4f34-928f-62499163e473",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10413a72-e50b-474f-ad49-5973addfef25",
+        "title": "Networking Event",
+        "description": "Network with professionals from various industries",
+        "created_at": "2023-08-26T08:26:12.856Z",
+        "updated_at": "2023-08-27T00:59:47.200Z",
+        "course_id": "878a251c-2126-4f34-928f-62499163e473",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5211ca1-46b8-4bff-adf3-456c6e10893d",
+        "title": "Problem Solving Challenge",
+        "description": "Solve complex problems in a challenging environment",
+        "created_at": "2023-08-26T18:59:23.046Z",
+        "updated_at": "2023-08-26T08:25:31.100Z",
+        "course_id": "99c84a0e-8faa-4338-b1d7-983bfa1af6a3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbec532b-3b2f-4da5-a0b3-7f4a62a52963",
+        "title": "Innovation Hackathon",
+        "description": "Participate in an innovation-focused hackathon",
+        "created_at": "2023-08-26T13:50:08.210Z",
+        "updated_at": "2023-08-26T09:40:31.181Z",
+        "course_id": "2146038e-6446-4a80-b2e4-45b267f404c9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "8ec6175c-6424-4cde-9434-56121136cbbc",
+        "title": "Outstanding Performance Award",
+        "description": "Recognized for exceptional performance and contributions",
+        "created_at": "2023-08-26T17:04:41.686Z",
+        "updated_at": "2023-08-26T15:55:18.058Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a10d53a-d19b-4764-9689-29dfa8ddf69b",
+        "title": "Excellence in Customer Service",
+        "description": "Acknowledged for delivering excellent customer service",
+        "created_at": "2023-08-26T09:26:35.099Z",
+        "updated_at": "2023-08-26T20:19:31.020Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8c07dde-359a-4c96-9543-9f5e77f45ba8",
+        "title": "Innovation Achievement",
+        "description": "Achieved significant innovation in a project",
+        "created_at": "2023-08-26T17:47:07.393Z",
+        "updated_at": "2023-08-26T19:34:04.819Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d65fd695-9401-4968-a02c-8b400ea8ce4c",
+        "title": "Leadership Recognition",
+        "description": "Recognized for exemplary leadership qualities",
+        "created_at": "2023-08-26T18:02:16.486Z",
+        "updated_at": "2023-08-26T10:28:45.021Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66d8a913-4889-4917-8ef8-ba01abb6405d",
+        "title": "Team Collaboration Award",
+        "description": "Acknowledged for outstanding collaboration and teamwork",
+        "created_at": "2023-08-27T03:53:34.156Z",
+        "updated_at": "2023-08-26T23:20:49.209Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5407be84-3999-4706-b402-8969cbd91a70",
+        "email": "Mikel_Kessler46@gmail.com",
+        "firstName": "Brianne",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1001.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "78d4ecf8-12e8-4b2d-aa54-91548d9e3579",
+        "email": "Callie_Kub@yahoo.com",
+        "firstName": "Carlos",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78795081",
+        "tenantId": null
+      },
+      {
+        "reference": "dfca39bd-f35f-40d7-8dd6-1216683667ba",
+        "email": "Roger_Bernhard@yahoo.com",
+        "firstName": "Moshe",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30033067",
+        "tenantId": null
+      },
+      {
+        "reference": "8051aa1b-f1fb-4910-af7c-1cc916dd0ffe",
+        "email": "Lilyan43@gmail.com",
+        "firstName": "Vada",
+        "lastName": "Walsh",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69501172",
+        "tenantId": null
+      },
+      {
+        "reference": "bd0f659a-d1a6-41fc-9940-715431f185c4",
+        "email": "Irma_Lowe16@yahoo.com",
+        "firstName": "Caden",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1222.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "1619972e-0d6f-4b20-bd52-0a31b5ac975d",
+        "title": "Introduction to Python Programming",
+        "description": "Learn the basics of Python programming language",
+        "created_at": "2023-08-26T21:45:49.436Z",
+        "updated_at": "2023-08-26T08:00:39.129Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e508d525-14c1-4112-ab0f-66b6cc5d83e2",
+        "title": "Web Development Fundamentals",
+        "description": "Build websites using HTML, CSS, and JavaScript",
+        "created_at": "2023-08-27T03:40:22.859Z",
+        "updated_at": "2023-08-26T23:49:36.310Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10a5986f-9d42-478c-b142-bad69bfad904",
+        "title": "Data Science for Beginners",
+        "description": "Explore the world of data science and analytics",
+        "created_at": "2023-08-26T15:01:36.674Z",
+        "updated_at": "2023-08-26T17:49:12.383Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ab50f5f-7c6e-4276-9964-c7ca2c3dcf91",
+        "title": "Marketing Strategies for Small Businesses",
+        "description": "Discover effective marketing strategies for small businesses",
+        "created_at": "2023-08-26T16:42:50.611Z",
+        "updated_at": "2023-08-27T02:05:03.845Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e293d97-c180-4eac-b2db-ae9fae90669b",
+        "title": "Financial Planning and Analysis",
+        "description": "Master financial planning and analysis techniques",
+        "created_at": "2023-08-26T08:55:36.941Z",
+        "updated_at": "2023-08-26T11:05:39.006Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "5bf66571-0b01-4551-8fe3-2280fa37b1eb",
+        "title": "Getting Started with Machine Learning",
+        "description": "Learn the fundamentals of machine learning and its applications",
+        "type": "Article",
+        "created_at": "2023-08-27T03:05:11.561Z",
+        "updated_at": "2023-08-26T17:48:42.929Z",
+        "course_id": "1619972e-0d6f-4b20-bd52-0a31b5ac975d"
+      },
+      {
+        "id": "41383589-8461-40ae-a21d-ff4ff0a2cf82",
+        "title": "The Art of Storytelling in Marketing",
+        "description": "Harness the power of storytelling to create impactful marketing campaigns",
+        "type": "Video",
+        "created_at": "2023-08-26T19:08:27.255Z",
+        "updated_at": "2023-08-26T22:34:47.392Z",
+        "course_id": "10a5986f-9d42-478c-b142-bad69bfad904"
+      },
+      {
+        "id": "2cc319e0-4709-41a7-9b06-31d30e54c467",
+        "title": "Effective Communication Skills for Professionals",
+        "description": "Enhance your communication skills for professional success",
+        "type": "Presentation",
+        "created_at": "2023-08-26T17:37:53.003Z",
+        "updated_at": "2023-08-26T19:14:50.812Z",
+        "course_id": "1619972e-0d6f-4b20-bd52-0a31b5ac975d"
+      },
+      {
+        "id": "87151167-f52f-4fe3-bd46-095be16f8dd4",
+        "title": "Introduction to Project Management",
+        "description": "Get an introduction to project management methodologies and best practices",
+        "type": "E-book",
+        "created_at": "2023-08-26T22:14:30.602Z",
+        "updated_at": "2023-08-26T22:44:09.807Z",
+        "course_id": "1619972e-0d6f-4b20-bd52-0a31b5ac975d"
+      },
+      {
+        "id": "fac6f621-4764-43f3-b404-e2bdad072f57",
+        "title": "Cybersecurity Fundamentals",
+        "description": "Understand the basics of cybersecurity and protect yourself online",
+        "type": "Infographic",
+        "created_at": "2023-08-27T02:56:56.133Z",
+        "updated_at": "2023-08-26T22:57:12.112Z",
+        "course_id": "8e293d97-c180-4eac-b2db-ae9fae90669b"
+      }
+    ],
+    "activity": [
+      {
+        "id": "5b1fc44f-fa54-4842-b241-00f94dacd258",
+        "title": "Team Building Workshop",
+        "description": "Engage in team-building activities to foster collaboration and synergy",
+        "created_at": "2023-08-26T15:14:00.475Z",
+        "updated_at": "2023-08-27T01:01:17.216Z",
+        "course_id": "10a5986f-9d42-478c-b142-bad69bfad904",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3958154f-22d2-4563-8abc-f91eb0e20e8a",
+        "title": "Leadership Seminar",
+        "description": "Develop leadership skills through interactive seminars and workshops",
+        "created_at": "2023-08-27T04:16:01.514Z",
+        "updated_at": "2023-08-26T11:13:40.498Z",
+        "course_id": "e508d525-14c1-4112-ab0f-66b6cc5d83e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d9949ef-02ce-4567-adee-cebbb2e095e8",
+        "title": "Networking Event",
+        "description": "Expand your professional network at industry-specific networking events",
+        "created_at": "2023-08-26T18:28:37.937Z",
+        "updated_at": "2023-08-26T14:43:57.696Z",
+        "course_id": "2ab50f5f-7c6e-4276-9964-c7ca2c3dcf91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "865edea5-5835-47fc-8a5c-3ef15b497e7d",
+        "title": "Problem-Solving Challenge",
+        "description": "Solve complex problems through challenging and interactive activities",
+        "created_at": "2023-08-27T04:45:52.939Z",
+        "updated_at": "2023-08-26T17:34:59.708Z",
+        "course_id": "2ab50f5f-7c6e-4276-9964-c7ca2c3dcf91",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4a67628b-70b5-4a8a-93f8-f1219b7cf7d0",
+        "title": "Innovation Hackathon",
+        "description": "Participate in an innovation hackathon to generate creative solutions",
+        "created_at": "2023-08-26T23:58:26.588Z",
+        "updated_at": "2023-08-27T02:26:43.795Z",
+        "course_id": "e508d525-14c1-4112-ab0f-66b6cc5d83e2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "f6c02c82-8c5a-4368-8fec-1779082ff86d",
+        "title": "Outstanding Performance Award",
+        "description": "Recognize outstanding performance and dedication",
+        "created_at": "2023-08-26T16:51:46.742Z",
+        "updated_at": "2023-08-26T10:09:54.488Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0ef5aabd-088b-49ef-b82f-c0ba81257f00",
+        "title": "Innovation Excellence Recognition",
+        "description": "Acknowledge innovative ideas and contributions",
+        "created_at": "2023-08-26T10:57:48.447Z",
+        "updated_at": "2023-08-26T10:40:58.181Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fa6ab68-8e33-44e4-aa63-83297d5d9875",
+        "title": "Leadership Achievement Certificate",
+        "description": "Celebrate exceptional leadership achievements",
+        "created_at": "2023-08-26T11:34:58.674Z",
+        "updated_at": "2023-08-26T22:30:50.105Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbfd8537-547e-436a-8909-c7df7c78eb48",
+        "title": "Customer Satisfaction Award",
+        "description": "Reward exceptional customer satisfaction ratings",
+        "created_at": "2023-08-26T15:02:01.023Z",
+        "updated_at": "2023-08-26T23:19:17.479Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be47e8d0-4616-449f-8536-35b66462945e",
+        "title": "Team Collaboration Appreciation",
+        "description": "Appreciate exemplary teamwork and collaboration",
+        "created_at": "2023-08-27T05:53:20.226Z",
+        "updated_at": "2023-08-26T14:02:52.640Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6c6dafe3-aefd-46fe-8ff9-39e6376e8bf2",
+        "email": "Isabel_Corkery1@gmail.com",
+        "firstName": "Haley",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64089712",
+        "tenantId": null
+      },
+      {
+        "reference": "9e7e8f72-2e8d-4bbe-8932-99805dbedeb4",
+        "email": "Emile.Reichel95@gmail.com",
+        "firstName": "Vladimir",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1012.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ace6b1a0-ca0e-4284-b9d7-e9899573256f",
+        "email": "Chesley.Abshire@gmail.com",
+        "firstName": "Dina",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81194285",
+        "tenantId": null
+      },
+      {
+        "reference": "986741f9-5f1b-45bf-88d3-2413cef211d3",
+        "email": "Reid_Kshlerin49@hotmail.com",
+        "firstName": "Annamarie",
+        "lastName": "Smitham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/542.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "11355658-545b-49e9-8568-b4e678a197f4",
+        "email": "Ryan20@yahoo.com",
+        "firstName": "Mathias",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/544.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "beb3c177-74e0-486d-affc-b4ec3af58b72",
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming",
+        "created_at": "2023-08-26T19:01:52.575Z",
+        "updated_at": "2023-08-26T23:56:29.206Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "396c9ab7-d361-47ec-8d78-3eb369f5cefb",
+        "title": "Digital Marketing Strategies",
+        "description": "Explore effective digital marketing techniques",
+        "created_at": "2023-08-27T05:28:53.138Z",
+        "updated_at": "2023-08-27T03:36:26.979Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2adc0250-8d6c-4714-b89e-f9f3cc6ab023",
+        "title": "Environmental Science",
+        "description": "Study the impact of human activities on the environment",
+        "created_at": "2023-08-26T14:26:25.848Z",
+        "updated_at": "2023-08-27T04:20:32.499Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "db94db66-8e6a-4fbc-90ab-acd1955bbd9a",
+        "title": "Healthcare Management",
+        "description": "Gain insights into healthcare administration",
+        "created_at": "2023-08-26T11:05:05.612Z",
+        "updated_at": "2023-08-26T13:20:32.188Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "01239789-c33c-4512-a419-92a4072a536e",
+        "title": "Art History",
+        "description": "Discover the evolution of art throughout history",
+        "created_at": "2023-08-26T11:16:18.704Z",
+        "updated_at": "2023-08-27T03:25:54.887Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "94538577-0b46-4230-b249-2df41eddc1a2",
+        "title": "Getting Started with Python",
+        "description": "A beginner's guide to Python programming language",
+        "type": "Tutorial",
+        "created_at": "2023-08-26T13:46:25.623Z",
+        "updated_at": "2023-08-26T06:54:01.999Z",
+        "course_id": "2adc0250-8d6c-4714-b89e-f9f3cc6ab023"
+      },
+      {
+        "id": "14462711-4743-4b9d-b5e4-f235b3016efe",
+        "title": "Social Media Advertising Tips",
+        "description": "Effective strategies for advertising on social media platforms",
+        "type": "Guide",
+        "created_at": "2023-08-26T12:29:40.497Z",
+        "updated_at": "2023-08-27T05:40:58.287Z",
+        "course_id": "01239789-c33c-4512-a419-92a4072a536e"
+      },
+      {
+        "id": "335f6ae8-8440-4895-b6f3-7436fca80e5e",
+        "title": "Climate Change and Its Consequences",
+        "description": "Understanding the causes and effects of climate change",
+        "type": "Article",
+        "created_at": "2023-08-26T20:07:49.892Z",
+        "updated_at": "2023-08-26T13:26:07.774Z",
+        "course_id": "2adc0250-8d6c-4714-b89e-f9f3cc6ab023"
+      },
+      {
+        "id": "da1150d8-6e7d-4610-a40c-30a2a3b228ed",
+        "title": "Improving Patient Experience in Hospitals",
+        "description": "Enhancing the quality of care and satisfaction for hospital patients",
+        "type": "Presentation",
+        "created_at": "2023-08-26T18:33:32.868Z",
+        "updated_at": "2023-08-27T05:38:23.143Z",
+        "course_id": "db94db66-8e6a-4fbc-90ab-acd1955bbd9a"
+      },
+      {
+        "id": "f6d0f473-6fcc-423c-bbba-f6056144d89e",
+        "title": "Renaissance Art: From Giotto to Michelangelo",
+        "description": "Exploring the artistic achievements of renowned Renaissance artists",
+        "type": "Video",
+        "created_at": "2023-08-26T11:12:39.985Z",
+        "updated_at": "2023-08-26T15:00:38.675Z",
+        "course_id": "01239789-c33c-4512-a419-92a4072a536e"
+      }
+    ],
+    "activity": [
+      {
+        "id": "78d9922b-5bcb-47c0-a0f6-ba53cbaddaeb",
+        "title": "Team Building Workshop",
+        "description": "Engage in team-building exercises to improve collaboration and communication",
+        "created_at": "2023-08-26T15:57:34.149Z",
+        "updated_at": "2023-08-27T05:04:35.051Z",
+        "course_id": "2adc0250-8d6c-4714-b89e-f9f3cc6ab023",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fdbdbe7-0b46-49a8-9ef9-bff99f6a7c8a",
+        "title": "Community Service Event",
+        "description": "Contribute to the community through volunteering activities",
+        "created_at": "2023-08-26T15:49:58.771Z",
+        "updated_at": "2023-08-26T08:44:59.100Z",
+        "course_id": "db94db66-8e6a-4fbc-90ab-acd1955bbd9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "72a70658-b3a7-40c4-9b9e-ee2763539d7a",
+        "title": "Industry Conference",
+        "description": "Attend a conference to gain industry insights and network with professionals",
+        "created_at": "2023-08-26T12:48:54.470Z",
+        "updated_at": "2023-08-27T03:39:02.020Z",
+        "course_id": "db94db66-8e6a-4fbc-90ab-acd1955bbd9a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbd522df-7ea9-44a5-ba0e-042f2fd39fc3",
+        "title": "Leadership Training Program",
+        "description": "Develop leadership skills through interactive training sessions",
+        "created_at": "2023-08-27T04:46:53.885Z",
+        "updated_at": "2023-08-27T02:54:56.547Z",
+        "course_id": "01239789-c33c-4512-a419-92a4072a536e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65bea4f6-2299-4d67-a6cf-a9503fb8e2ad",
+        "title": "Art Exhibition Opening",
+        "description": "Experience the opening of a new art exhibition featuring local and international artists",
+        "created_at": "2023-08-27T04:15:46.154Z",
+        "updated_at": "2023-08-26T14:38:31.173Z",
+        "course_id": "beb3c177-74e0-486d-affc-b4ec3af58b72",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "d4427dfd-a7df-495b-ab4e-8e47c31faca2",
+        "title": "Outstanding Achievement Award",
+        "description": "Recognizing exceptional achievements in a specific field",
+        "created_at": "2023-08-26T13:09:54.874Z",
+        "updated_at": "2023-08-27T01:01:33.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e30262ba-0120-48ea-a18d-24253ced5f38",
+        "title": "Innovation Excellence Recognition",
+        "description": "Acknowledging innovative ideas and solutions",
+        "created_at": "2023-08-26T18:04:05.974Z",
+        "updated_at": "2023-08-26T08:39:05.714Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8d24b88-6ba6-45f4-8f37-7c504458f071",
+        "title": "Community Service Appreciation",
+        "description": "Appreciating contributions to the community through service",
+        "created_at": "2023-08-26T21:09:46.802Z",
+        "updated_at": "2023-08-26T21:42:07.027Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5278629c-041e-46ac-85e9-4f50ebf335da",
+        "title": "Leadership Excellence Award",
+        "description": "Honoring outstanding leadership skills and accomplishments",
+        "created_at": "2023-08-27T01:38:44.996Z",
+        "updated_at": "2023-08-26T13:26:52.563Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "544cd71e-0642-4cfd-997f-c4eb25519068",
+        "title": "Artistic Achievement Honor",
+        "description": "Celebrating artistic excellence and creativity",
+        "created_at": "2023-08-26T11:34:39.912Z",
+        "updated_at": "2023-08-26T19:24:12.600Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7f26d41d-74ce-428c-b748-84707380b22d",
+        "email": "Marlon36@gmail.com",
+        "firstName": "Kris",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66485040",
+        "tenantId": null
+      },
+      {
+        "reference": "caeee028-5d4f-4e9f-bd47-d8cb319d9ec9",
+        "email": "Hannah.Crooks6@hotmail.com",
+        "firstName": "Lisette",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83959688",
+        "tenantId": null
+      },
+      {
+        "reference": "32cd74c9-a35f-4734-ae4b-13ac7966843c",
+        "email": "Alyson64@hotmail.com",
+        "firstName": "Durward",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83908138",
+        "tenantId": null
+      },
+      {
+        "reference": "b1a87bb3-b6a2-44cb-adea-48cda9062637",
+        "email": "Janessa.Heidenreich56@gmail.com",
+        "firstName": "Arch",
+        "lastName": "Veum",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5186523",
+        "tenantId": null
+      },
+      {
+        "reference": "f842a401-cab4-4ed4-b120-2430cd81633f",
+        "email": "Patricia.Ankunding57@hotmail.com",
+        "firstName": "Jamel",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/748.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "03faf3c1-c421-44a7-82ef-c073b2280c04",
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming and develop your own applications",
+        "created_at": "2023-08-27T00:46:33.000Z",
+        "updated_at": "2023-08-26T17:43:02.763Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba47ec99-da73-4882-8626-d6803b3f1753",
+        "title": "Marketing Strategies for Small Businesses",
+        "description": "Discover effective marketing strategies to grow your small business",
+        "created_at": "2023-08-27T00:07:01.016Z",
+        "updated_at": "2023-08-26T19:48:32.240Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdac303b-b9db-4c6d-afb4-7422ce12b6a6",
+        "title": "Financial Planning for Beginners",
+        "description": "Understand the fundamentals of financial planning and make informed decisions",
+        "created_at": "2023-08-26T11:58:25.044Z",
+        "updated_at": "2023-08-27T03:50:37.709Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dcfa4d4f-d8a6-47bb-bdcd-5f3981c7dedc",
+        "title": "Artificial Intelligence Fundamentals",
+        "description": "Explore the world of artificial intelligence and its applications",
+        "created_at": "2023-08-26T19:22:58.045Z",
+        "updated_at": "2023-08-26T15:01:25.553Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ac2332f-01fe-422a-a03a-93fe7c43e73e",
+        "title": "Effective Communication Skills",
+        "description": "Improve your communication skills for personal and professional success",
+        "created_at": "2023-08-26T16:41:36.764Z",
+        "updated_at": "2023-08-26T15:26:40.325Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "1326d55e-ba86-4132-9439-f1a1a9035148",
+        "title": "The History of Ancient Civilizations",
+        "description": "Uncover the fascinating history of ancient civilizations and their contributions",
+        "type": "Article",
+        "created_at": "2023-08-26T13:13:52.499Z",
+        "updated_at": "2023-08-26T09:20:32.682Z",
+        "course_id": "fdac303b-b9db-4c6d-afb4-7422ce12b6a6"
+      },
+      {
+        "id": "f8dc382c-76b2-4f54-8a52-1d50e45ab747",
+        "title": "Introduction to Renewable Energy Sources",
+        "description": "Learn about renewable energy sources and their impact on the environment",
+        "type": "Video",
+        "created_at": "2023-08-27T01:38:07.691Z",
+        "updated_at": "2023-08-27T00:27:07.646Z",
+        "course_id": "2ac2332f-01fe-422a-a03a-93fe7c43e73e"
+      },
+      {
+        "id": "20b9832a-4aa2-40fb-be7c-de06aa2d4fb3",
+        "title": "Exploring the Wonders of the Universe",
+        "description": "Embark on a journey to explore the wonders of the universe and beyond",
+        "type": "Presentation",
+        "created_at": "2023-08-26T17:18:24.967Z",
+        "updated_at": "2023-08-26T22:25:36.623Z",
+        "course_id": "2ac2332f-01fe-422a-a03a-93fe7c43e73e"
+      },
+      {
+        "id": "96dc370a-e371-4f78-aeb4-4368fed3bbf6",
+        "title": "The Art of Photography: Capturing Moments",
+        "description": "Discover the art of photography and master the techniques of capturing moments",
+        "type": "Interactive Quiz",
+        "created_at": "2023-08-27T01:40:04.426Z",
+        "updated_at": "2023-08-26T21:55:50.870Z",
+        "course_id": "2ac2332f-01fe-422a-a03a-93fe7c43e73e"
+      },
+      {
+        "id": "92040730-729f-49cb-bef3-3d73cab4c712",
+        "title": "Understanding Human Psychology",
+        "description": "Gain insights into human psychology and understand the complexities of the mind",
+        "type": "Case Study",
+        "created_at": "2023-08-26T23:42:20.477Z",
+        "updated_at": "2023-08-27T00:17:01.196Z",
+        "course_id": "dcfa4d4f-d8a6-47bb-bdcd-5f3981c7dedc"
+      }
+    ],
+    "activity": [
+      {
+        "id": "269b761d-e14b-480d-a598-d18fe4def668",
+        "title": "Team Building Workshop",
+        "description": "Participate in a team building workshop to enhance collaboration and communication skills",
+        "created_at": "2023-08-27T00:10:44.752Z",
+        "updated_at": "2023-08-26T11:17:20.052Z",
+        "course_id": "03faf3c1-c421-44a7-82ef-c073b2280c04",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42f8e5d7-9969-46fa-9961-1c7ff27e1a67",
+        "title": "Leadership Training Seminar",
+        "description": "Attend a leadership training seminar to develop effective leadership qualities",
+        "created_at": "2023-08-27T01:47:57.663Z",
+        "updated_at": "2023-08-26T18:57:06.995Z",
+        "course_id": "dcfa4d4f-d8a6-47bb-bdcd-5f3981c7dedc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad70b5c0-9c52-4ba1-a07f-18f2fd25182c",
+        "title": "Community Service Event",
+        "description": "Engage in a community service event to make a positive impact in the local community",
+        "created_at": "2023-08-27T04:01:11.595Z",
+        "updated_at": "2023-08-26T11:25:03.737Z",
+        "course_id": "fdac303b-b9db-4c6d-afb4-7422ce12b6a6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc4a3622-f201-43f8-b7b3-705a4532b56a",
+        "title": "Industry Conference",
+        "description": "Join an industry conference to stay updated with the latest trends and innovations",
+        "created_at": "2023-08-27T00:10:38.940Z",
+        "updated_at": "2023-08-26T07:30:52.916Z",
+        "course_id": "2ac2332f-01fe-422a-a03a-93fe7c43e73e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d715ecac-616f-41ee-b47e-21f6db2922d3",
+        "title": "Problem-Solving Challenge",
+        "description": "Take part in a problem-solving challenge to test your critical thinking abilities",
+        "created_at": "2023-08-26T10:39:57.516Z",
+        "updated_at": "2023-08-27T04:32:24.292Z",
+        "course_id": "ba47ec99-da73-4882-8626-d6803b3f1753",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "0acbe8b4-a91b-4836-8c99-5c59a9d63c7b",
+        "title": "Outstanding Performance Award",
+        "description": "Receive an outstanding performance award for exceptional contributions and achievements",
+        "created_at": "2023-08-27T01:33:13.328Z",
+        "updated_at": "2023-08-26T23:57:25.296Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8bd012fe-7d5b-42a5-b854-f929740c8c88",
+        "title": "Innovation Excellence Recognition",
+        "description": "Be recognized for innovation excellence in implementing creative solutions",
+        "created_at": "2023-08-26T08:12:45.213Z",
+        "updated_at": "2023-08-26T11:40:23.357Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f57177e2-416e-4b09-9d03-aa464bfc6276",
+        "title": "Community Service Achievement",
+        "description": "Earn a community service achievement for dedicated efforts towards social causes",
+        "created_at": "2023-08-27T05:43:55.470Z",
+        "updated_at": "2023-08-27T03:25:19.491Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cb033bb0-c31e-4d88-9b78-efa2cb359817",
+        "title": "Leadership Excellence Award",
+        "description": "Receive a leadership excellence award for exemplary leadership skills and accomplishments",
+        "created_at": "2023-08-27T02:35:51.519Z",
+        "updated_at": "2023-08-26T07:06:50.924Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "62b98c4c-a3d9-44f1-ad10-05d7dc99fb34",
+        "title": "Academic Excellence Honor",
+        "description": "Achieve academic excellence honor for outstanding academic performance",
+        "created_at": "2023-08-26T21:00:03.093Z",
+        "updated_at": "2023-08-26T23:01:31.749Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "679ac7cb-baa6-4170-8877-d20ef2419b34",
+        "email": "Deven.Homenick84@yahoo.com",
+        "firstName": "Winfield",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69203227",
+        "tenantId": null
+      },
+      {
+        "reference": "c4c95cbe-4020-46ff-a407-006c89faad38",
+        "email": "Brando_Connelly-Kozey@yahoo.com",
+        "firstName": "Meta",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1135.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "39436c4c-e579-42eb-a3b8-690356f9ff2b",
+        "email": "Dell.Williamson4@yahoo.com",
+        "firstName": "Ludie",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15360427",
+        "tenantId": null
+      },
+      {
+        "reference": "ac24e735-2500-40a0-a703-8bc068550e47",
+        "email": "Nick_Ratke@gmail.com",
+        "firstName": "Lexie",
+        "lastName": "Thiel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/473.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c5ce9115-97ff-4f23-8a3a-b33c758b89b1",
+        "email": "Amelie.Donnelly@gmail.com",
+        "firstName": "Hiram",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1226.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "43c1b7ad-acf3-47a5-b7c4-c4aa6c1525e1",
+        "title": "Introduction to Programming",
+        "description": "Learn the fundamentals of programming",
+        "created_at": "2023-08-26T11:47:51.675Z",
+        "updated_at": "2023-08-26T22:58:41.724Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92b8f8d8-933b-41c3-87b6-24936c304b11",
+        "title": "Marketing Strategies for Small Businesses",
+        "description": "Discover effective marketing techniques for small businesses",
+        "created_at": "2023-08-26T15:57:07.247Z",
+        "updated_at": "2023-08-26T20:54:24.573Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c31741a4-9235-4063-896b-512220d1d6ad",
+        "title": "Environmental Science 101",
+        "description": "Explore the science of the environment",
+        "created_at": "2023-08-27T03:13:01.840Z",
+        "updated_at": "2023-08-27T01:07:51.589Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "66816d15-c2c5-4215-b886-28db557ba72f",
+        "title": "Anatomy and Physiology",
+        "description": "Study the structure and function of the human body",
+        "created_at": "2023-08-26T16:55:34.723Z",
+        "updated_at": "2023-08-26T06:40:57.183Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "323382d2-5776-4b38-98d3-aac08308c6d7",
+        "title": "Financial Planning Basics",
+        "description": "Understand the basics of financial planning",
+        "created_at": "2023-08-26T19:54:40.940Z",
+        "updated_at": "2023-08-26T17:49:26.793Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "3a8c230a-1aa1-4fb7-ad8a-7d9cc52a521a",
+        "title": "Getting Started Guide",
+        "description": "A comprehensive guide for beginners",
+        "type": "Guide",
+        "created_at": "2023-08-26T15:29:44.270Z",
+        "updated_at": "2023-08-26T10:41:41.815Z",
+        "course_id": "92b8f8d8-933b-41c3-87b6-24936c304b11"
+      },
+      {
+        "id": "4d617db7-ea9c-456a-9922-21ae739b8aba",
+        "title": "Advanced Techniques Manual",
+        "description": "Learn advanced techniques and strategies",
+        "type": "Manual",
+        "created_at": "2023-08-26T22:06:35.825Z",
+        "updated_at": "2023-08-26T15:42:17.259Z",
+        "course_id": "323382d2-5776-4b38-98d3-aac08308c6d7"
+      },
+      {
+        "id": "0457d495-d5a2-4cec-a79e-4757d284835b",
+        "title": "Case Studies Collection",
+        "description": "Real-world case studies for practical learning",
+        "type": "Collection",
+        "created_at": "2023-08-26T07:39:23.883Z",
+        "updated_at": "2023-08-26T10:47:37.803Z",
+        "course_id": "323382d2-5776-4b38-98d3-aac08308c6d7"
+      },
+      {
+        "id": "87ebc9da-9e4f-4b2c-953a-346a669d8f43",
+        "title": "Video Tutorials",
+        "description": "Visual learning through video tutorials",
+        "type": "Video",
+        "created_at": "2023-08-26T18:52:32.907Z",
+        "updated_at": "2023-08-26T10:51:56.727Z",
+        "course_id": "92b8f8d8-933b-41c3-87b6-24936c304b11"
+      },
+      {
+        "id": "09e592ac-85f8-44da-aeac-3ae913c2659a",
+        "title": "Best Practices Handbook",
+        "description": "Expert tips and best practices for success",
+        "type": "Handbook",
+        "created_at": "2023-08-27T03:58:55.046Z",
+        "updated_at": "2023-08-26T07:30:26.867Z",
+        "course_id": "43c1b7ad-acf3-47a5-b7c4-c4aa6c1525e1"
+      }
+    ],
+    "activity": [
+      {
+        "id": "fc312e2a-f22b-4886-8f87-e49aa2c86b76",
+        "title": "Team Building Workshop",
+        "description": "Enhance teamwork and collaboration skills",
+        "created_at": "2023-08-26T08:37:33.037Z",
+        "updated_at": "2023-08-26T17:25:58.615Z",
+        "course_id": "92b8f8d8-933b-41c3-87b6-24936c304b11",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2ed1bfd1-41b5-47ec-9c70-bd5488fb8657",
+        "title": "Leadership Seminar",
+        "description": "Develop effective leadership qualities",
+        "created_at": "2023-08-26T22:30:29.128Z",
+        "updated_at": "2023-08-26T14:44:56.508Z",
+        "course_id": "c31741a4-9235-4063-896b-512220d1d6ad",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "58afc606-27dc-442c-9e9b-92c95a502967",
+        "title": "Community Service Project",
+        "description": "Contribute to the community through service",
+        "created_at": "2023-08-27T00:38:10.220Z",
+        "updated_at": "2023-08-26T07:07:57.673Z",
+        "course_id": "43c1b7ad-acf3-47a5-b7c4-c4aa6c1525e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e41e0075-1519-4eb2-bff3-dff2f5d3a5a9",
+        "title": "Industry Conference",
+        "description": "Attend a conference to gain industry insights",
+        "created_at": "2023-08-26T06:55:51.098Z",
+        "updated_at": "2023-08-26T12:38:45.453Z",
+        "course_id": "323382d2-5776-4b38-98d3-aac08308c6d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2e733e9a-7f22-4d31-9265-5a5a789eeeb7",
+        "title": "Networking Event",
+        "description": "Expand professional network through networking event",
+        "created_at": "2023-08-27T01:00:24.662Z",
+        "updated_at": "2023-08-26T09:11:53.843Z",
+        "course_id": "66816d15-c2c5-4215-b886-28db557ba72f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "dacd4cc3-25f6-41e7-a621-88bbfdf80a04",
+        "title": "Outstanding Performance Award",
+        "description": "Recognizing exceptional performance",
+        "created_at": "2023-08-26T15:47:25.357Z",
+        "updated_at": "2023-08-27T06:16:41.624Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f9468e0-ae40-4a88-8b5c-f8eee664190c",
+        "title": "Innovation Excellence Recognition",
+        "description": "Acknowledging innovative contributions",
+        "created_at": "2023-08-27T03:37:38.684Z",
+        "updated_at": "2023-08-26T08:23:56.022Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3f7f9154-95d9-4584-9d4f-a07d2aca2845",
+        "title": "Community Impact Award",
+        "description": "Honoring positive impact on the community",
+        "created_at": "2023-08-27T00:36:20.626Z",
+        "updated_at": "2023-08-27T05:59:42.487Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a33dfd56-f6f8-46cd-95c0-29048b219157",
+        "title": "Industry Leadership Award",
+        "description": "Celebrating leadership in the industry",
+        "created_at": "2023-08-26T20:47:09.427Z",
+        "updated_at": "2023-08-26T13:49:04.835Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc34bd0b-4f32-42d0-9b7d-65a33565c044",
+        "title": "Professional Development Achievement",
+        "description": "Recognizing achievements in professional development",
+        "created_at": "2023-08-27T01:20:01.713Z",
+        "updated_at": "2023-08-26T16:33:41.490Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "09bdc2ca-354a-462e-8976-0cb096a4007a",
+        "email": "Anahi_Hills@gmail.com",
+        "firstName": "Elliot",
+        "lastName": "Cole",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59572911",
+        "tenantId": null
+      },
+      {
+        "reference": "7c543806-3094-44e0-b449-5272af798582",
+        "email": "Hester_Jakubowski@gmail.com",
+        "firstName": "Donnie",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78137274",
+        "tenantId": null
+      },
+      {
+        "reference": "9450b31b-0494-4d6c-8e83-6439a6f5b1c9",
+        "email": "Kennedy_Padberg@gmail.com",
+        "firstName": "Alexie",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/619.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19f09b82-216a-445a-a9e3-b81f77dc3717",
+        "email": "Shana_Welch53@hotmail.com",
+        "firstName": "Reece",
+        "lastName": "Jacobs",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88341695",
+        "tenantId": null
+      },
+      {
+        "reference": "901a521b-3e76-4b2b-81ad-20955dc42563",
+        "email": "Ismael_Collins94@gmail.com",
+        "firstName": "Clay",
+        "lastName": "Green",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/152.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "course": [
+      {
+        "id": "86ced503-3d1a-4d0d-a2a5-fcd3e1c474ae",
+        "title": "Introduction to Programming",
+        "description": "Learn the basics of programming with hands-on exercises",
+        "created_at": "2023-08-26T09:39:19.999Z",
+        "updated_at": "2023-08-26T22:59:51.936Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3fdb71fd-78f6-4d7e-817c-f52ca3b89d9b",
+        "title": "Marketing Strategies for Small Businesses",
+        "description": "Discover effective marketing techniques for small businesses",
+        "created_at": "2023-08-26T20:08:50.265Z",
+        "updated_at": "2023-08-26T16:25:53.640Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d42d84e6-c935-4088-aedf-80b6eb7ba751",
+        "title": "Financial Planning for Beginners",
+        "description": "Understand the fundamentals of financial planning",
+        "created_at": "2023-08-27T00:55:54.315Z",
+        "updated_at": "2023-08-27T03:17:25.908Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13bbb6d4-6f52-42c6-8644-88ef02141e18",
+        "title": "Yoga and Meditation for Stress Relief",
+        "description": "Improve your mental and physical well-being through yoga and meditation",
+        "created_at": "2023-08-26T23:56:30.617Z",
+        "updated_at": "2023-08-26T20:26:24.925Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29a7d6f1-4ac6-44cb-82b0-4d487fb85a86",
+        "title": "Sustainable Agriculture Practices",
+        "description": "Explore sustainable farming methods for a greener future",
+        "created_at": "2023-08-26T22:06:08.538Z",
+        "updated_at": "2023-08-26T07:19:43.890Z",
+        "organization_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "content": [
+      {
+        "id": "66da8f6a-e8a7-4888-b664-3a4512e5ff36",
+        "title": "Getting Started",
+        "description": "Learn the essentials to get started in this field",
+        "type": "Video",
+        "created_at": "2023-08-27T04:53:33.581Z",
+        "updated_at": "2023-08-26T17:16:11.891Z",
+        "course_id": "29a7d6f1-4ac6-44cb-82b0-4d487fb85a86"
+      },
+      {
+        "id": "3fe965a5-f8d8-4ab2-988b-76896954602f",
+        "title": "Advanced Techniques",
+        "description": "Explore advanced techniques and strategies",
+        "type": "Article",
+        "created_at": "2023-08-27T01:15:59.180Z",
+        "updated_at": "2023-08-26T07:33:21.013Z",
+        "course_id": "13bbb6d4-6f52-42c6-8644-88ef02141e18"
+      },
+      {
+        "id": "f29020a2-e091-43d5-ba32-2882f135d8dc",
+        "title": "Best Practices",
+        "description": "Discover the best practices followed by professionals",
+        "type": "Presentation",
+        "created_at": "2023-08-26T10:11:30.957Z",
+        "updated_at": "2023-08-26T22:30:55.723Z",
+        "course_id": "29a7d6f1-4ac6-44cb-82b0-4d487fb85a86"
+      },
+      {
+        "id": "0af764e4-0389-4012-8f4b-d74f4d8979cf",
+        "title": "Case Studies",
+        "description": "Analyze real-life case studies for practical insights",
+        "type": "Quiz",
+        "created_at": "2023-08-26T23:48:03.688Z",
+        "updated_at": "2023-08-26T21:40:36.367Z",
+        "course_id": "3fdb71fd-78f6-4d7e-817c-f52ca3b89d9b"
+      },
+      {
+        "id": "60463a32-5186-4cf4-9687-b9f531a07a3e",
+        "title": "Industry Trends",
+        "description": "Stay updated with the latest industry trends",
+        "type": "Infographic",
+        "created_at": "2023-08-26T18:33:54.583Z",
+        "updated_at": "2023-08-26T07:11:10.394Z",
+        "course_id": "29a7d6f1-4ac6-44cb-82b0-4d487fb85a86"
+      }
+    ],
+    "activity": [
+      {
+        "id": "21e06884-77e7-4e76-9a4c-094fba75f6b1",
+        "title": "Team Building Workshop",
+        "description": "Engage in team-building activities for improved collaboration",
+        "created_at": "2023-08-26T21:24:04.257Z",
+        "updated_at": "2023-08-26T18:16:55.203Z",
+        "course_id": "13bbb6d4-6f52-42c6-8644-88ef02141e18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d79a22bf-6748-46d0-badd-058a0e9f9465",
+        "title": "Leadership Training Seminar",
+        "description": "Enhance your leadership skills through interactive sessions",
+        "created_at": "2023-08-27T03:04:54.311Z",
+        "updated_at": "2023-08-26T16:14:58.071Z",
+        "course_id": "d42d84e6-c935-4088-aedf-80b6eb7ba751",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbf6a72e-793f-418e-88ac-bf42a44a0a61",
+        "title": "Community Service Event",
+        "description": "Contribute to the community through a service event",
+        "created_at": "2023-08-27T03:02:34.160Z",
+        "updated_at": "2023-08-26T10:51:06.806Z",
+        "course_id": "86ced503-3d1a-4d0d-a2a5-fcd3e1c474ae",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "285b85cd-af5a-4030-aee5-4cf7980e81c8",
+        "title": "Industry Conference",
+        "description": "Attend an industry conference to gain valuable insights",
+        "created_at": "2023-08-26T23:16:42.326Z",
+        "updated_at": "2023-08-27T03:48:27.083Z",
+        "course_id": "3fdb71fd-78f6-4d7e-817c-f52ca3b89d9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c6c5331-8a39-43fc-95dc-4b2c3cfe3a98",
+        "title": "Networking Mixer",
+        "description": "Expand your professional network at a networking mixer",
+        "created_at": "2023-08-26T07:20:30.240Z",
+        "updated_at": "2023-08-27T05:33:52.797Z",
+        "course_id": "29a7d6f1-4ac6-44cb-82b0-4d487fb85a86",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "achievement": [
+      {
+        "id": "ace8d09c-3cc1-4ada-86b8-fbdd8a8b7f58",
+        "title": "Outstanding Performance Award",
+        "description": "Recognizing exceptional performance and dedication",
+        "created_at": "2023-08-26T14:23:37.494Z",
+        "updated_at": "2023-08-26T16:34:39.973Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cb4b31b-f7c1-46a1-b855-e09912de29bd",
+        "title": "Community Impact Recognition",
+        "description": "Acknowledging the positive impact on the community",
+        "created_at": "2023-08-26T19:18:52.771Z",
+        "updated_at": "2023-08-26T12:03:40.584Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c7527ee-c241-49c6-9a54-ef0f4a5ccf9b",
+        "title": "Innovation Excellence Certificate",
+        "description": "Celebrating innovative ideas and solutions",
+        "created_at": "2023-08-26T12:38:00.899Z",
+        "updated_at": "2023-08-27T05:30:05.135Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2491e361-f82f-41d9-9379-65255ec02414",
+        "title": "Leadership Achievement Trophy",
+        "description": "Honoring outstanding leadership achievements",
+        "created_at": "2023-08-26T16:39:28.688Z",
+        "updated_at": "2023-08-26T23:58:09.230Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecea71a3-f64a-42de-8243-59fae6541cec",
+        "title": "Academic Excellence Medal",
+        "description": "Commending academic excellence and achievements",
+        "created_at": "2023-08-26T19:34:17.820Z",
+        "updated_at": "2023-08-27T03:09:33.252Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2a02e020-d85f-4e22-9c42-e64bc4a3d608",
+        "email": "Rupert25@hotmail.com",
+        "firstName": "Rex",
+        "lastName": "Hyatt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11656404",
+        "tenantId": null
+      },
+      {
+        "reference": "0d937a5b-3263-44ef-baea-5524c4ea5cff",
+        "email": "Assunta_Boyer@gmail.com",
+        "firstName": "Brian",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/557.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6fa1e4b5-6846-4c62-b596-5884cc2a07aa",
+        "email": "Sonny_Oberbrunner13@yahoo.com",
+        "firstName": "Osbaldo",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/716.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dcb98894-024f-4ccf-82f4-00acc6c586d2",
+        "email": "Jasper_Wolf@hotmail.com",
+        "firstName": "Olen",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/260.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5ab625dd-1e7e-4c7f-bab1-0b3cf1951993",
+        "email": "Efren.Konopelski84@hotmail.com",
+        "firstName": "Quinten",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9203643",
+        "tenantId": null
+      }
+    ]
+  }
+]
